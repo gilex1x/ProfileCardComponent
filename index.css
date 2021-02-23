@@ -33,21 +33,32 @@ p,strong{
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card-container__top{
-    background-color: var(--dark-blue) 
+    background-color: var(--dark-blue);
+    height: 25%;
 }
 .card-container__bottom{
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; 
+    height: 75%;  
+}
+.card-container__bottom-avatar{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .card-container__bottom img{
     border: solid 2px white;
     border-radius: 5rem;
     width: 30%;
+}
+.card-container__bottom-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
 }
