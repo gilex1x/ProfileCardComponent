@@ -22,6 +22,9 @@ body{
     height: 100vh;
     width: 100vw;
 }
+p,strong{
+    font-size: 1.8rem;
+}
 
 .card-container{
     background-color: #f5f5f5;
@@ -37,5 +40,14 @@ body{
     background-color: var(--dark-blue) 
 }
 .card-container__bottom{
-    background-color: #19a2ae;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-container__bottom img{
+    border: solid 2px white;
+    border-radius: 5rem;
+    width: 30%;
 }
